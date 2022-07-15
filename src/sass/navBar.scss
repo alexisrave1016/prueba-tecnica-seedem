@@ -1,19 +1,52 @@
+@import '_colors.scss';
+
 .container-navBar{
     display: flex;
+    justify-content: space-evenly;
+    height: 40px;
     width: 100%;
-
+    
     .container-opciones{
+        align-items: center;
         display: flex;
+       
+        .logo{
+            height: 30px;
+            margin-right: 40px;
+        }
         
         .opciones{
+            align-items: center;
             display: flex;
-            justify-content:space-evenly;
 
             .seleccion-opciones{
+                color: $Grayish-Violet;
+                font-family: poppins;
                 font-size: 15px;
-                margin: auto 15px;
+                margin: auto 15px;   
             }
             
         }
+    }
+
+    .login-registro{
+        align-items: center;
+        color: $Grayish-Violet;
+        display: flex;
+        font-size: 15px;
+    
+        .registro{
+            align-items: center;
+            background-color: $Cyan;
+            border: 1px solid $Cyan;
+            border-radius: 25px;
+            color: white;
+            display: flex;
+            height: 35px;
+            justify-content: center;
+            margin-left: 30px;
+            width: 80px;
+        }
+
     }
 }

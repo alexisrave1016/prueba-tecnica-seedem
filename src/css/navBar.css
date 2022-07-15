@@ -1,17 +1,44 @@
 .container-navBar {
   display: flex;
+  justify-content: space-evenly;
+  height: 40px;
   width: 100%;
 }
 .container-navBar .container-opciones {
+  align-items: center;
   display: flex;
+}
+.container-navBar .container-opciones .logo {
+  height: 30px;
+  margin-right: 40px;
 }
 .container-navBar .container-opciones .opciones {
+  align-items: center;
   display: flex;
-  justify-content: space-evenly;
 }
 .container-navBar .container-opciones .opciones .seleccion-opciones {
+  color: hsl(257deg, 7%, 63%);
+  font-family: poppins;
   font-size: 15px;
   margin: auto 15px;
+}
+.container-navBar .login-registro {
+  align-items: center;
+  color: hsl(257deg, 7%, 63%);
+  display: flex;
+  font-size: 15px;
+}
+.container-navBar .login-registro .registro {
+  align-items: center;
+  background-color: hsl(180deg, 66%, 49%);
+  border: 1px solid hsl(180deg, 66%, 49%);
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  margin-left: 30px;
+  width: 80px;
 }
 
 /*# sourceMappingURL=navBar.css.map */
