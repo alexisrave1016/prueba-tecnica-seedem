@@ -1,0 +1,19 @@
+.container-navBar{
+    display: flex;
+    width: 100%;
+
+    .container-opciones{
+        display: flex;
+        
+        .opciones{
+            display: flex;
+            justify-content:space-evenly;
+
+            .seleccion-opciones{
+                font-size: 15px;
+                margin: auto 15px;
+            }
+            
+        }
+    }
+}

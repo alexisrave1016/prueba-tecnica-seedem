@@ -1,0 +1,17 @@
+.container-navBar {
+  display: flex;
+  width: 100%;
+}
+.container-navBar .container-opciones {
+  display: flex;
+}
+.container-navBar .container-opciones .opciones {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-navBar .container-opciones .opciones .seleccion-opciones {
+  font-size: 15px;
+  margin: auto 15px;
+}
+
+/*# sourceMappingURL=navBar.css.map */
