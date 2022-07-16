@@ -22,11 +22,18 @@
   font-size: 15px;
   margin: auto 15px;
 }
+.container-navBar .container-opciones .opciones .seleccion-opciones:hover {
+  color: black;
+  cursor: pointer;
+}
 .container-navBar .login-registro {
   align-items: center;
   color: hsl(257deg, 7%, 63%);
   display: flex;
   font-size: 15px;
+}
+.container-navBar .login-registro .login:hover {
+  cursor: pointer;
 }
 .container-navBar .login-registro .registro {
   align-items: center;

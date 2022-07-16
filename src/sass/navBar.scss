@@ -25,6 +25,11 @@
                 font-size: 15px;
                 margin: auto 15px;   
             }
+
+            .seleccion-opciones:hover{
+                color: black;
+                cursor: pointer;
+            }
             
         }
     }
@@ -34,6 +39,10 @@
         color: $Grayish-Violet;
         display: flex;
         font-size: 15px;
+
+        .login:hover{
+            cursor: pointer;
+        }
     
         .registro{
             align-items: center;

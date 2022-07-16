@@ -7,7 +7,7 @@ export default function NavBar() {
 
         <div className="container-opciones">
             <div className="logo">
-                <img src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919555/seedem/logo_naj2id.svg" alt="" srcset="" />
+                <img src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919555/seedem/logo_naj2id.svg" alt="Logo no disponible" srcset="" />
             </div>
             <div className="opciones">
                 <h2 className='seleccion-opciones'>Feactures</h2>
@@ -18,7 +18,7 @@ export default function NavBar() {
 
         <div className="login-registro">
             <div className='login'>Login</div>
-            <div className='registro'>Sign Up</div>
+            <div className='login registro'>Sign Up</div>
         </div>
 
     </div>

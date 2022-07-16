@@ -1,0 +1,67 @@
+@import 'colors.scss';
+
+.container-footer{
+    align-items: center;
+    background-color: $Very-Dark-Violet;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+
+    .logo-footer{
+        align-items: flex-start;
+        height: 40%;
+        display: flex;
+    }
+    .contenedor-prueba{
+        display: flex;
+        
+        .caracteristicas{
+            display: flex;
+            justify-content: space-around;
+            
+    
+            .menu-caract{
+                margin-left: 60px;
+                padding: 0;
+    
+                .titulos-caracteristicas{
+                    color: white;
+                }
+            
+                .opciones-caract{
+                    color: $Gray;
+                    font-size: 14px;
+                    padding: 0;
+                    margin: 10px 0;
+                }
+
+                .opciones-caract:hover{
+                    color: $Cyan;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .redes-sociales{
+            align-items:flex-start;
+            display: flex;
+            justify-content: space-evenly; 
+            margin-left: 70px;
+            
+        
+            .logo-redes{
+            height: 20px;
+            margin-left: 15px;
+            margin-top: 40px;
+            width: 20px;
+            }
+
+            .logo-redes:hover{
+                cursor: pointer;
+            }
+
+        }
+
+    }
+    
+}
