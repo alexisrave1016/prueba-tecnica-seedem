@@ -1,4 +1,5 @@
 import React from 'react'
+import Buscador from '../components/Buscador'
 import Estadisticas from '../components/Estadisticas'
 import Footer from '../components/Footer'
 import Home from '../components/Home'
@@ -10,6 +11,7 @@ export default function App() {
     <div>
         <NavBar/>
         <Home/>
+        <Buscador/>
         <Estadisticas/>
         <Footer/>
     </div>

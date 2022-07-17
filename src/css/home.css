@@ -22,6 +22,10 @@
   padding: 10px 30px;
   text-decoration: none;
 }
+.container-home .container-contenido .empezar:hover {
+  cursor: pointer;
+  background-color: #9be3e2;
+}
 .container-home .imagen-home {
   width: 700px;
 }

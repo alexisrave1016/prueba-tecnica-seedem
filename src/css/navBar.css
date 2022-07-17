@@ -34,6 +34,7 @@
 }
 .container-navBar .login-registro .login:hover {
   cursor: pointer;
+  background-color: #9be3e2;
 }
 .container-navBar .login-registro .registro {
   align-items: center;

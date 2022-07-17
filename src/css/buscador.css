@@ -1,0 +1,48 @@
+.contenedor-global-buscador {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -75px;
+}
+.contenedor-global-buscador .contenedor-buscador {
+  align-items: center;
+  background-color: hsl(257deg, 27%, 26%);
+  background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919553/seedem/bg-shorten-desktop_xhs6hj.svg);
+  background-repeat: no-repeat;
+  background-position: 70% -10%;
+  border-radius: 15px;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+}
+.contenedor-global-buscador .contenedor-buscador .buscador-links {
+  width: 60%;
+  border-radius: 7px;
+  font-style: 15px;
+  padding: 10px 30px;
+  color: hsl(0deg, 87%, 67%);
+  margin-right: 20px;
+}
+.contenedor-global-buscador .contenedor-buscador .buscador-links:focus, .contenedor-global-buscador .contenedor-buscador input:focus, .contenedor-global-buscador .contenedor-buscador input[type]:focus {
+  border-color: hsl(0deg, 87%, 67%);
+  outline: 0 none;
+}
+.contenedor-global-buscador .contenedor-buscador .empezar {
+  color: white;
+  background-color: hsl(180deg, 66%, 49%);
+  border: 1px solid hsl(180deg, 66%, 49%);
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.contenedor-global-buscador .contenedor-buscador .empezar:hover {
+  background-color: #9be3e2;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=buscador.css.map */

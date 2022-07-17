@@ -4,16 +4,29 @@
     background-color: $Gray-Claro;
     display: flex;
     flex-direction: column;
-   
 
     .titulo-estaditicas{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 100px;
+        max-width: 470px;
         width: 100%;
-        max-width: 500px;
-        
-        
+
+        .titulo-principal-est{
+            color: black;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            
+        }
+
+        .parrafo-titulo{
+            color: $Gray;
+            text-align: center;
+        }
     }
 
     .bloque-estadista{
@@ -22,10 +35,11 @@
 
         .indicadores, .detalles, .perzonalizacion {
             background: white;
-            width: 250px;
+            width: 350px;
             margin-right: 25px;
+            z-index: 1;
             
-            
+
 
             .logo-estadisticas{
                 align-items: center;
@@ -35,15 +49,80 @@
                 display: flex;
                 justify-content: center;
                 height: 60px;
+                position: relative;
+                margin-left: 20px;
+                top: -30px;
                 width: 60px;
             
                 .emoticon{
                     width: 30px;
                 }
             }
+
+            .estadisticas{
+                padding: 0 20px;
+
+                .titulo-estadistas{
+                    color: black;
+                    font-weight: 700;
+                }
+
+                .detalles-estadistas{
+                    color: $Gray;
+                    
+                }
+            }
         }
 
+        .detalles{
+            bottom: -30px;
+            position: relative;
+        }
+
+        .perzonalizacion{
+            bottom: -60px;
+            position: relative;
+        }
+
+       
+
+    }
+    .linea{
+        color: black;
+        border: 3px solid $Cyan;
+        position: relative;
+        top: -120px;
+        width: 50%; 
     }
 
-    .enlances{}
+    .enlances{
+        background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919553/seedem/bg-boost-desktop_dwoh6s.svg);
+        background-color: $Dark-Violet;
+        height: 230px;
+        margin-top: 100px;
+        text-align: center;
+
+        .titulo-enlances{
+            color: white;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        .empezar{
+            color: white;
+            background-color: $Cyan;
+            border: 1px solid $Cyan;
+            border-radius: 25px;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 20px;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+
+        .empezar:hover{
+            cursor: pointer;
+            background-color: $Cyan-Claro;
+        }
+    }
 }

@@ -1,0 +1,54 @@
+@import 'colors.scss';
+.contenedor-global-buscador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -75px;
+    .contenedor-buscador{
+        align-items: center;
+        background-color: $Dark-Violet;
+        background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919553/seedem/bg-shorten-desktop_xhs6hj.svg);
+        background-repeat: no-repeat;
+        background-position: 70% -10%;
+        border-radius: 15px;
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        max-width: 800px;
+        width: 100%;
+    
+        
+        .buscador-links{
+            width: 60%;
+            border-radius: 7px;
+            font-style: 15px;
+            padding: 10px 30px;
+            color: $Red;
+            margin-right: 20px;
+            
+        }
+
+        .buscador-links:focus, input:focus, input[type]:focus {
+            border-color: $Red;
+            outline: 0 none;
+        }
+
+        .empezar{
+            color: white;
+            background-color: $Cyan;
+            border: 1px solid $Cyan;
+            border-radius: 7px;
+            font-size: 15px;
+            font-weight: 700;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+
+        .empezar:hover {
+            background-color: $Cyan-Claro;
+            cursor: pointer;
+
+        }
+    }
+}

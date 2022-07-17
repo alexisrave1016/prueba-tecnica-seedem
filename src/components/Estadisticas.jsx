@@ -4,9 +4,10 @@ import '../css/estadisticas.css'
 export default function Estadisticas() {
   return (
     <div className='contedor-estadisticas'>
+        
         <div className="titulo-estaditicas">
-            <h2>Advanced Statistics</h2>
-            <p>track how your links are performing across the web with our advanced statistics dasboard.</p>
+            <h2 className='titulo-principal-est'>Advanced Statistics</h2>
+            <p className='parrafo-titulo'>track how your links are performing across the web with our advanced statistics dasboard.</p>
         </div>
 
         <div className="bloque-estadista">
@@ -39,12 +40,16 @@ export default function Estadisticas() {
                     <p className='detalles-estadistas'>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
                 </div>
             </div>
+
+        
         </div>
+        <hr className='linea'/>
 
         <div className="enlances">
-            <h2>Boost your links today</h2>
+            <h2 className='titulo-enlances'>Boost your links today</h2>
             <button className='empezar'>Get Started</button>
         </div>
+        
     </div>
   )
 }

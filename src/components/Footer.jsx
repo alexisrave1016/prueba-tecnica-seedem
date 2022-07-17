@@ -39,7 +39,6 @@ export default function Footer() {
             <img className='logo-redes' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919555/seedem/icon-twitter_vf5qym.svg" alt="redes sociales no disponibles" srcset="" />
             <img className='logo-redes' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919554/seedem/icon-pinterest_b6rnns.svg" alt="redes sociales no disponibles" srcset="" />
             <img className='logo-redes' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919554/seedem/icon-instagram_eviadk.svg" alt="redes sociales no disponibles" srcset="" />
-            <img className='logo-redes' src="icon-facebook.svg" alt="redes sociales no disponibles" srcset="" />
         </div>
         </div>
 
