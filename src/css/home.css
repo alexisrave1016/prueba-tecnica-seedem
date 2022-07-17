@@ -1,6 +1,9 @@
 .container-home {
   display: flex;
 }
+.container-home .container-contenido {
+  padding: 0 120px;
+}
 .container-home .container-contenido .titulo-home {
   font-size: 60px;
   font-weight: 700;
@@ -15,6 +18,7 @@
   border-radius: 25px;
   font-size: 15px;
   font-weight: 700;
+  margin-top: 20px;
   padding: 10px 30px;
   text-decoration: none;
 }

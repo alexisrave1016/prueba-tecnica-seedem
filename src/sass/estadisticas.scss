@@ -1,0 +1,49 @@
+@import 'colors.scss';
+
+.contedor-estadisticas{
+    background-color: $Gray-Claro;
+    display: flex;
+    flex-direction: column;
+   
+
+    .titulo-estaditicas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 500px;
+        
+        
+    }
+
+    .bloque-estadista{
+        display: flex;
+        justify-content: center;
+
+        .indicadores, .detalles, .perzonalizacion {
+            background: white;
+            width: 250px;
+            margin-right: 25px;
+            
+            
+
+            .logo-estadisticas{
+                align-items: center;
+                background-color: $Dark-Violet;
+                border: 1px solid $Dark-Violet;
+                border-radius: 50px;
+                display: flex;
+                justify-content: center;
+                height: 60px;
+                width: 60px;
+            
+                .emoticon{
+                    width: 30px;
+                }
+            }
+        }
+
+    }
+
+    .enlances{}
+}

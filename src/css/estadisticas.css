@@ -1,0 +1,36 @@
+.contedor-estadisticas {
+  background-color: #f0f1f6;
+  display: flex;
+  flex-direction: column;
+}
+.contedor-estadisticas .titulo-estaditicas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+}
+.contedor-estadisticas .bloque-estadista {
+  display: flex;
+  justify-content: center;
+}
+.contedor-estadisticas .bloque-estadista .indicadores, .contedor-estadisticas .bloque-estadista .detalles, .contedor-estadisticas .bloque-estadista .perzonalizacion {
+  background: white;
+  width: 250px;
+  margin-right: 25px;
+}
+.contedor-estadisticas .bloque-estadista .indicadores .logo-estadisticas, .contedor-estadisticas .bloque-estadista .detalles .logo-estadisticas, .contedor-estadisticas .bloque-estadista .perzonalizacion .logo-estadisticas {
+  align-items: center;
+  background-color: hsl(257deg, 27%, 26%);
+  border: 1px solid hsl(257deg, 27%, 26%);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+}
+.contedor-estadisticas .bloque-estadista .indicadores .logo-estadisticas .emoticon, .contedor-estadisticas .bloque-estadista .detalles .logo-estadisticas .emoticon, .contedor-estadisticas .bloque-estadista .perzonalizacion .logo-estadisticas .emoticon {
+  width: 30px;
+}
+
+/*# sourceMappingURL=estadisticas.css.map */

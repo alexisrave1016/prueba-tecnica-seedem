@@ -48,6 +48,7 @@
 }
 .container-footer .contenedor-prueba .redes-sociales .logo-redes:hover {
   cursor: pointer;
+  background-color: hsl(180deg, 66%, 49%);
 }
 
 /*# sourceMappingURL=footer.css.map */

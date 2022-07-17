@@ -6,6 +6,7 @@
     display: flex;
     height: 300px;
     justify-content: space-evenly;
+    
 
     .logo-footer{
         align-items: flex-start;
@@ -58,6 +59,8 @@
 
             .logo-redes:hover{
                 cursor: pointer;
+                background-color: $Cyan;
+                
             }
 
         }
