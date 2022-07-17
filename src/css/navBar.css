@@ -7,6 +7,8 @@
 .container-navBar .container-opciones {
   align-items: center;
   display: flex;
+  justify-content: center;
+  width: 50%;
 }
 .container-navBar .container-opciones .logo {
   height: 30px;
@@ -30,7 +32,9 @@
   align-items: center;
   color: hsl(257deg, 7%, 63%);
   display: flex;
+  justify-content: center;
   font-size: 15px;
+  width: 50%;
 }
 .container-navBar .login-registro .login:hover {
   cursor: pointer;

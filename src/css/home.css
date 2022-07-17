@@ -1,5 +1,7 @@
 .container-home {
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 .container-home .container-contenido {
   padding: 0 120px;
@@ -27,7 +29,7 @@
   background-color: #9be3e2;
 }
 .container-home .imagen-home {
-  width: 700px;
+  width: 600px;
 }
 
 /*# sourceMappingURL=home.css.map */

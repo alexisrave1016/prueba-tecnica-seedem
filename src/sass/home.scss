@@ -2,6 +2,8 @@
 
 .container-home{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 60px;
 
     .container-contenido{
         padding:0 120px;
@@ -35,6 +37,6 @@
     }
 
     .imagen-home{
-        width: 700px;
+        width: 600px;
     }
 }

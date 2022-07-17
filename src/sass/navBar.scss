@@ -9,7 +9,9 @@
     .container-opciones{
         align-items: center;
         display: flex;
-       
+        justify-content: center;
+        width: 50%;
+        
         .logo{
             height: 30px;
             margin-right: 40px;
@@ -38,7 +40,9 @@
         align-items: center;
         color: $Grayish-Violet;
         display: flex;
+        justify-content: center;
         font-size: 15px;
+        width: 50%;
 
         .login:hover{
             cursor: pointer;
