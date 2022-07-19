@@ -45,4 +45,31 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 550px) {
+  .contenedor-global-buscador {
+    width: 90%;
+    margin: auto;
+  }
+  .contenedor-global-buscador .contenedor-buscador {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919553/seedem/bg-shorten-mobile_hhtib3.svg);
+    background-position: 100% -100%;
+  }
+  .contenedor-global-buscador .contenedor-buscador .buscador-links {
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    overflow: hidden;
+    padding-left: 15px;
+  }
+  .contenedor-global-buscador .contenedor-buscador .empezar {
+    width: 80%;
+    height: 30%;
+    padding: 0;
+    margin-top: 20px;
+  }
+}
+
 /*# sourceMappingURL=buscador.css.map */
