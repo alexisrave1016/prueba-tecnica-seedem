@@ -7,38 +7,53 @@
 .container-navBar .container-opciones {
   align-items: center;
   display: flex;
-  justify-content: center;
-  width: 50%;
+  justify-content: flex-end;
+  width: 20%;
 }
 .container-navBar .container-opciones .logo {
   height: 30px;
   margin-right: 40px;
 }
-.container-navBar .container-opciones .opciones {
+.container-navBar .contenedor-prueba {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.container-navBar .contenedor-prueba .opciones {
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
 }
-.container-navBar .container-opciones .opciones .seleccion-opciones {
+.container-navBar .contenedor-prueba .opciones .seleccion-opciones {
   color: hsl(257deg, 7%, 63%);
   font-family: poppins;
   font-size: 15px;
   margin: auto 15px;
 }
-.container-navBar .container-opciones .opciones .seleccion-opciones:hover {
+.container-navBar .contenedor-prueba .opciones .seleccion-opciones:hover {
   color: black;
   cursor: pointer;
+}
+.container-navBar .linea-menu {
+  display: none;
 }
 .container-navBar .login-registro {
   align-items: center;
   color: hsl(257deg, 7%, 63%);
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
   font-size: 15px;
   width: 50%;
 }
 .container-navBar .login-registro .login:hover {
   cursor: pointer;
+  color: black;
+}
+.container-navBar .login-registro .registro:hover {
+  cursor: pointer;
   background-color: #9be3e2;
+  color: white;
 }
 .container-navBar .login-registro .registro {
   align-items: center;
@@ -51,6 +66,76 @@
   justify-content: center;
   margin-left: 30px;
   width: 80px;
+}
+.container-navBar .hamburguesa {
+  background-color: white;
+  border: none;
+  display: none;
+}
+.container-navBar .hamburguesa .logo-hamburguesa {
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (max-width: 550px) {
+  .container-navBar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .container-navBar .container-opciones {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .container-navBar .contenedor-prueba {
+    display: none;
+  }
+  .container-navBar .contenedor-prueba.isActive {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(257deg, 27%, 26%);
+    border-radius: 10px;
+    width: 85%;
+    position: absolute;
+    margin-top: 50px;
+    height: 50vh;
+  }
+  .container-navBar .contenedor-prueba.isActive .opciones,
+.container-navBar .contenedor-prueba.isActive .login-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container-navBar .contenedor-prueba.isActive .opciones .login,
+.container-navBar .contenedor-prueba.isActive .login-registro .login {
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+  .container-navBar .contenedor-prueba.isActive .opciones .registro,
+.container-navBar .contenedor-prueba.isActive .login-registro .registro {
+    margin: 0;
+    width: 85%;
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .container-navBar .contenedor-prueba.isActive .linea-menu {
+    display: flex;
+    width: 85%;
+    border: 1px solid hsl(257deg, 7%, 63%);
+  }
+  .container-navBar .contenedor-prueba.isActive .opciones .seleccion-opciones {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .container-navBar .hamburguesa {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+  }
 }
 
 /*# sourceMappingURL=navBar.css.map */

@@ -9,17 +9,25 @@
     .container-opciones{
         align-items: center;
         display: flex;
-        justify-content: center;
-        width: 50%;
+        justify-content: flex-end;
+        width: 20%;
+        ;
         
         .logo{
             height: 30px;
             margin-right: 40px;
         }
         
+       
+    }
+    .contenedor-prueba{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
         .opciones{
             align-items: center;
             display: flex;
+            flex-flow: row wrap;
 
             .seleccion-opciones{
                 color: $Grayish-Violet;
@@ -35,19 +43,30 @@
             
         }
     }
+    .linea-menu{
+        display: none;
+    }
 
     .login-registro{
         align-items: center;
         color: $Grayish-Violet;
         display: flex;
         justify-content: center;
+        flex-flow: row wrap;
         font-size: 15px;
         width: 50%;
 
         .login:hover{
             cursor: pointer;
-            background-color: $Cyan-Claro;
+            color: black;
         }
+
+        .registro:hover{
+            cursor: pointer;
+            background-color: $Cyan-Claro;
+            color: white;
+        }
+
     
         .registro{
             align-items: center;
@@ -63,10 +82,90 @@
         }
 
     }
+    .hamburguesa{
+        background-color: white;
+        border: none;
+        display: none;
+        
+        .logo-hamburguesa{
+            height: 35px;
+            width: 35px;
+        }   
+    }
+
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width:550px){
     .container-navBar{
-        
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+
+        .container-opciones{
+            width: 40%;
+            display: flex;
+            justify-content: flex-start;
+            // .logo{}
+
+
+        }
+        .contenedor-prueba{
+            display: none; 
+        }
+
+        .contenedor-prueba.isActive{
+            display: flex;
+            flex-direction: column;
+            background-color: $Dark-Violet;
+            border-radius: 10px;
+            width: 85%;
+            position: absolute;
+            margin-top: 50px;
+            height: 50vh;
+            
+            
+            .opciones,
+            .login-registro {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: auto;
+                width: 100%;
+                margin-bottom: 20px;
+
+                .login{
+                    font-size: 20px;
+                    margin: 10px 0 20px;
+                }
+
+                .registro{margin: 0;
+                    width: 85%;
+                    font-size: 20px;
+                    padding: 10px 0;
+                }
+            }
+            .linea-menu{
+                display: flex;
+                width: 85%;
+                border: 1px solid $Grayish-Violet;
+            }
+            .opciones{
+                .seleccion-opciones{
+                    font-size: 20px;
+                    margin: 10px 0;
+                }
+            }
+        }
+
+       
+
+        .hamburguesa{
+            display: flex;
+            width: 50%;
+            justify-content: flex-end;
+        }
+
+
     }
 }
