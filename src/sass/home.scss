@@ -48,15 +48,16 @@
         padding: 0;
 
         .imagen-home{
-            width: 400px;
             margin-left: 30px;
+            width: 400px;
         }
 
         .container-contenido{
-            padding: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding: 0;
+            
             .titulo-home{
                 font-size: 40px;
                 padding: 0 30px;
@@ -64,9 +65,9 @@
             }
 
             .parrafo-home{
+                font-size: 17px;
                 padding: 0 30px;
                 text-align: center;
-                font-size: 17px;
             }
 
             .empezar{

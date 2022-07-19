@@ -39,14 +39,14 @@
     padding: 0;
   }
   .container-home .imagen-home {
-    width: 400px;
     margin-left: 30px;
+    width: 400px;
   }
   .container-home .container-contenido {
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
   }
   .container-home .container-contenido .titulo-home {
     font-size: 40px;
@@ -54,9 +54,9 @@
     text-align: center;
   }
   .container-home .container-contenido .parrafo-home {
+    font-size: 17px;
     padding: 0 30px;
     text-align: center;
-    font-size: 17px;
   }
   .container-home .container-contenido .empezar {
     margin: auto;
