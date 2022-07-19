@@ -62,5 +62,35 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 550px) {
+  .container-home {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .container-home .imagen-home {
+    margin-left: 30px;
+    width: 400px;
+  }
+  .container-home .container-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .container-home .container-contenido .titulo-home {
+    font-size: 40px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .container-home .container-contenido .parrafo-home {
+    font-size: 17px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .container-home .container-contenido .empezar {
+    margin: auto;
+  }
+}
 
 /*# sourceMappingURL=home.css.map */

@@ -168,5 +168,71 @@
     padding: 7px 20px;
   }
 }
+@media screen and (max-width: 550px) {
+  .contedor-estadisticas {
+    display: flex;
+    flex-direction: column;
+  }
+  .contedor-estadisticas .titulo-estaditicas {
+    max-width: 375px;
+    width: 100%;
+  }
+  .contedor-estadisticas .titulo-estaditicas .titulo-principal-est {
+    font-size: 27px;
+  }
+  .contedor-estadisticas .titulo-estaditicas .parrafo-titulo {
+    font-size: 17px;
+  }
+  .contedor-estadisticas .bloque-estadista {
+    display: flex;
+    flex-direction: column;
+  }
+  .contedor-estadisticas .bloque-estadista .indicadores,
+.contedor-estadisticas .bloque-estadista .detalles,
+.contedor-estadisticas .bloque-estadista .perzonalizacion {
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 320px;
+  }
+  .contedor-estadisticas .bloque-estadista .indicadores .logo-estadisticas,
+.contedor-estadisticas .bloque-estadista .detalles .logo-estadisticas,
+.contedor-estadisticas .bloque-estadista .perzonalizacion .logo-estadisticas {
+    height: 90px;
+    margin: auto;
+    width: 90px;
+  }
+  .contedor-estadisticas .bloque-estadista .indicadores .detalles-estadistas,
+.contedor-estadisticas .bloque-estadista .detalles .detalles-estadistas,
+.contedor-estadisticas .bloque-estadista .perzonalizacion .detalles-estadistas {
+    font-size: 15px;
+  }
+  .contedor-estadisticas .linea {
+    background-color: hsl(180deg, 66%, 49%);
+    border-width: 0;
+    height: 450px;
+    position: relative;
+    top: -690px;
+    width: 2vw;
+  }
+  .contedor-estadisticas .enlances {
+    align-items: center;
+    background-position: 10% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+    top: -330px;
+  }
+  .contedor-estadisticas .enlances .titulo-enlances {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+  .contedor-estadisticas .enlances .empezar {
+    margin: 0;
+    padding: 7px 20px;
+  }
+}
 
 /*# sourceMappingURL=estadisticas.css.map */

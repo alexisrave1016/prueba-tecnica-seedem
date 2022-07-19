@@ -112,3 +112,49 @@
         }
     }
 }
+
+//esto es prueba
+
+@media screen and (max-width: 550px){
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        top: -330px;
+
+        .logo-footer{
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        .contenedor-prueba{
+            display: flex;
+            flex-direction: column;
+        
+            .caracteristicas{
+                display: flex;
+                flex-direction: column;
+
+                .menu-caract{
+                   margin: 0;
+                   text-align: center;
+
+                   .titulos-caracteristicas{
+                    font-size: 15px;
+                   }
+
+                   .opciones-caract{
+                    font-size: 10px;
+                   }
+                }
+                
+            }
+
+            .redes-sociales{
+                margin: 0;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
