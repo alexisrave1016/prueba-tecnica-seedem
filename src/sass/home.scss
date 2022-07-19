@@ -40,3 +40,39 @@
         width: 600px;
     }
 }
+
+@media screen and (max-width: 376px){
+    .container-home{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+
+        .imagen-home{
+            width: 400px;
+            margin-left: 30px;
+        }
+
+        .container-contenido{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .titulo-home{
+                font-size: 40px;
+                padding: 0 30px;
+                text-align: center;
+            }
+
+            .parrafo-home{
+                padding: 0 30px;
+                text-align: center;
+                font-size: 17px;
+            }
+
+            .empezar{
+                margin: auto;
+            }
+        }
+
+    }
+}

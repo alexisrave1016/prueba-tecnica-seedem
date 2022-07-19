@@ -32,4 +32,35 @@
   width: 600px;
 }
 
+@media screen and (max-width: 376px) {
+  .container-home {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .container-home .imagen-home {
+    width: 400px;
+    margin-left: 30px;
+  }
+  .container-home .container-contenido {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-home .container-contenido .titulo-home {
+    font-size: 40px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .container-home .container-contenido .parrafo-home {
+    padding: 0 30px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .container-home .container-contenido .empezar {
+    margin: auto;
+  }
+}
+
 /*# sourceMappingURL=home.css.map */

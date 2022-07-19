@@ -126,3 +126,84 @@
         }
     }
 }
+
+@media screen and (max-width: 376px){
+    .contedor-estadisticas{
+        display: flex;
+        flex-direction: column;
+       
+
+        .titulo-estaditicas{
+            width: 100%;
+            max-width: 375px;
+            .titulo-principal-est{
+                font-size: 27px;
+            }
+
+            .parrafo-titulo{
+                font-size: 17px;
+            }  
+        }
+
+        .bloque-estadista{
+            display: flex;
+            flex-direction: column;
+
+            .indicadores,
+            .detalles,
+            .perzonalizacion {
+                width: 320px;
+                margin: auto;
+                margin-bottom: 50px;
+                text-align: center;
+
+                .logo-estadisticas{
+                    width: 90px;
+                    height: 90px;
+                    margin: auto;
+                    
+                }
+
+                .detalles-estadistas{
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .linea{
+            height:400px;
+            width:.5vw;
+            border-width:0;
+            background-color:$Cyan;
+            border: 3px solid $Cyan;
+            position: relative;
+            top: -700px;
+           
+
+        
+        }
+
+        .enlances{
+            margin: 0;
+           background-position: 10% 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           position: relative;
+           top: -330px;
+
+           .titulo-enlances{
+            font-size: 25px;
+            margin: 15px 0;
+           }
+
+           .empezar{
+            margin: 0;
+            padding: 7px 20px;
+           }
+
+        }
+    }
+
+}   

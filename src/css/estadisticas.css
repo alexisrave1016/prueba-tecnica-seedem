@@ -102,4 +102,72 @@
   background-color: #9be3e2;
 }
 
+@media screen and (max-width: 376px) {
+  .contedor-estadisticas {
+    display: flex;
+    flex-direction: column;
+  }
+  .contedor-estadisticas .titulo-estaditicas {
+    width: 100%;
+    max-width: 375px;
+  }
+  .contedor-estadisticas .titulo-estaditicas .titulo-principal-est {
+    font-size: 27px;
+  }
+  .contedor-estadisticas .titulo-estaditicas .parrafo-titulo {
+    font-size: 17px;
+  }
+  .contedor-estadisticas .bloque-estadista {
+    display: flex;
+    flex-direction: column;
+  }
+  .contedor-estadisticas .bloque-estadista .indicadores,
+.contedor-estadisticas .bloque-estadista .detalles,
+.contedor-estadisticas .bloque-estadista .perzonalizacion {
+    width: 320px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .contedor-estadisticas .bloque-estadista .indicadores .logo-estadisticas,
+.contedor-estadisticas .bloque-estadista .detalles .logo-estadisticas,
+.contedor-estadisticas .bloque-estadista .perzonalizacion .logo-estadisticas {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+  }
+  .contedor-estadisticas .bloque-estadista .indicadores .detalles-estadistas,
+.contedor-estadisticas .bloque-estadista .detalles .detalles-estadistas,
+.contedor-estadisticas .bloque-estadista .perzonalizacion .detalles-estadistas {
+    font-size: 15px;
+  }
+  .contedor-estadisticas .linea {
+    height: 400px;
+    width: 0.5vw;
+    border-width: 0;
+    background-color: hsl(180deg, 66%, 49%);
+    border: 3px solid hsl(180deg, 66%, 49%);
+    position: relative;
+    top: -700px;
+  }
+  .contedor-estadisticas .enlances {
+    margin: 0;
+    background-position: 10% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -330px;
+  }
+  .contedor-estadisticas .enlances .titulo-enlances {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+  .contedor-estadisticas .enlances .empezar {
+    margin: 0;
+    padding: 7px 20px;
+  }
+}
+
 /*# sourceMappingURL=estadisticas.css.map */
