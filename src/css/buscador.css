@@ -30,6 +30,10 @@
   border-color: hsl(0deg, 87%, 67%);
   outline: 0 none;
 }
+.contenedor-global-buscador .contenedor-buscador .titulo-apoyo {
+  display: none;
+  color: hsl(0deg, 87%, 67%);
+}
 .contenedor-global-buscador .contenedor-buscador .empezar {
   color: white;
   background-color: hsl(180deg, 66%, 49%);
@@ -53,6 +57,7 @@
   .contenedor-global-buscador .contenedor-buscador {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1657919553/seedem/bg-shorten-mobile_hhtib3.svg);
     background-position: 100% -100%;
   }
@@ -61,14 +66,19 @@
     margin: 0;
     padding: 0;
     height: 30%;
-    overflow: hidden;
     padding-left: 15px;
+  }
+  .contenedor-global-buscador .contenedor-buscador .titulo-apoyo.ActivarTexto {
+    display: flex;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 40px;
   }
   .contenedor-global-buscador .contenedor-buscador .empezar {
     width: 80%;
     height: 30%;
-    padding: 0;
-    margin-top: 20px;
   }
 }
 
