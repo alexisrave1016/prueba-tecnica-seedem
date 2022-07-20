@@ -34,6 +34,15 @@
   display: none;
   color: hsl(0deg, 87%, 67%);
 }
+.contenedor-global-buscador .contenedor-buscador .titulo-apoyo.ActivarTexto {
+  display: flex;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 370px;
+}
 .contenedor-global-buscador .contenedor-buscador .empezar {
   color: white;
   background-color: hsl(180deg, 66%, 49%);

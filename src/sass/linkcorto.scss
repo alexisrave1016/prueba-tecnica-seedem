@@ -1,0 +1,49 @@
+@import 'colors.scss';
+
+.contenedor-link{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    max-height: 50px;
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    bottom: -80px;
+    border-radius: 7px;
+
+    .link-cortar{
+        max-width: 500px;
+        width: 60%;
+        margin-left: 20px;
+        font-size: 12px;
+
+    }
+
+    .link-resultado{
+        max-width: 250px;
+        width: 25%;
+        color: $Cyan;
+        font-size: 12px;
+    }
+
+    .boton-copiar{
+        background-color: $Cyan;
+        height: 30px;
+        color: white;
+        border: 1px solid $Cyan;
+        border-radius: 5px;
+        max-width: 70px;
+        width: 15%;
+        font-size: 10px;
+        
+
+    }
+
+    button.copied{
+        background-color: $Dark-Violet;
+        height: 20px;
+    }
+
+}

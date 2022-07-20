@@ -3,4 +3,10 @@
   font-weight: 500;
 }
 
+.contenedor-app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,41 @@
+.contenedor-link {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  max-height: 50px;
+  max-width: 800px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  bottom: -80px;
+  border-radius: 7px;
+}
+.contenedor-link .link-cortar {
+  max-width: 500px;
+  width: 60%;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.contenedor-link .link-resultado {
+  max-width: 250px;
+  width: 25%;
+  color: hsl(180deg, 66%, 49%);
+  font-size: 12px;
+}
+.contenedor-link .boton-copiar {
+  background-color: hsl(180deg, 66%, 49%);
+  height: 30px;
+  color: white;
+  border: 1px solid hsl(180deg, 66%, 49%);
+  border-radius: 5px;
+  max-width: 70px;
+  width: 15%;
+  font-size: 10px;
+}
+.contenedor-link button.copied {
+  background-color: hsl(257deg, 27%, 26%);
+  height: 20px;
+}
+
+/*# sourceMappingURL=linkcorto.css.map */

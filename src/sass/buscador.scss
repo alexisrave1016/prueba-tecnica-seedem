@@ -37,7 +37,16 @@
             display: none;
             color: $Red;
         }
-       
+        .titulo-apoyo.ActivarTexto{
+                display: flex;
+                font-size: 20px;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                bottom:20px;
+                left: 370px;
+            }
+
         .empezar{
             color: white;
             background-color: $Cyan;
@@ -55,6 +64,7 @@
 
         }
     }
+ 
 }
 
 @media screen and (max-width: 550px) {
