@@ -23,6 +23,9 @@
   color: hsl(180deg, 66%, 49%);
   font-size: 12px;
 }
+.contenedor-link .linea-link-corto {
+  display: none;
+}
 .contenedor-link .boton-copiar {
   background-color: hsl(180deg, 66%, 49%);
   height: 30px;
@@ -35,7 +38,43 @@
 }
 .contenedor-link button.copied {
   background-color: hsl(257deg, 27%, 26%);
-  height: 20px;
+  height: 30px;
+}
+
+@media screen and (max-width: 550px) {
+  .contenedor-link {
+    width: 90%;
+    max-height: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .contenedor-link .link-cortar {
+    max-width: 300px;
+    width: 90%;
+    margin: 0;
+    font-size: 12px;
+    display: flex;
+  }
+  .contenedor-link .linea-link-corto {
+    display: flex;
+    border: 1px solid hsl(0deg, 0%, 75%);
+    max-width: 400px;
+    width: 100%;
+  }
+  .contenedor-link .link-resultado {
+    width: 90%;
+    max-width: 300px;
+    color: hsl(180deg, 66%, 49%);
+    font-size: 12px;
+    text-align: left;
+  }
+  .contenedor-link .boton-copiar {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 /*# sourceMappingURL=linkcorto.css.map */
