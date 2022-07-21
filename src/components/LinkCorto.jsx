@@ -24,14 +24,15 @@ export default function LinkCorto({inputValue}) {
   } 
 
   useEffect(() => {
-    if(inputValue.length){
+    if(inputValue.length>0){
       peticionesUrl(); 
-    }
-    return
+    }else{console.log(error)}
+    
   }, [prueba])
 
 
   console.log(prueba + 'soy prueba');
+  
   useEffect(() => {
     const timer= setTimeout(() => {
       setCopied(false)
