@@ -9,7 +9,7 @@ export default function LinkCorto({inputValue}) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false)
 
-  const peticiones = async()=>{
+  const peticionesUrl = async()=>{
     try{
       setLoading(true);
       const res= await axios(`https://api.shrtco.de/v2/shorten?url=${inputValue}`);
@@ -25,7 +25,7 @@ export default function LinkCorto({inputValue}) {
  
   useEffect(() => {
     if(inputValue.length){
-      peticiones(); 
+      peticionesUrl(); 
     }
   }, [inputValue])
 
