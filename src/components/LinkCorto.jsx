@@ -8,6 +8,7 @@ export default function LinkCorto({inputValue}) {
   const [copied, setCopied] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false)
+  var prueba= inputValue
 
   const peticionesUrl = async()=>{
     try{
@@ -22,15 +23,15 @@ export default function LinkCorto({inputValue}) {
 
   } 
 
- 
   useEffect(() => {
     if(inputValue.length){
       peticionesUrl(); 
     }
     return
-  })
+  }, [prueba])
 
 
+  console.log(prueba + 'soy prueba');
   useEffect(() => {
     const timer= setTimeout(() => {
       setCopied(false)
