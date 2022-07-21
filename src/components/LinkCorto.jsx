@@ -28,7 +28,7 @@ export default function LinkCorto({inputValue}) {
       peticionesUrl(); 
     }
     return
-  }, [inputValue])
+  })
 
 
   useEffect(() => {
