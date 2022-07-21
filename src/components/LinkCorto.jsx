@@ -26,13 +26,13 @@ export default function LinkCorto({inputValue}) {
   useEffect(() => {
     if(inputValue.length>0){
       peticionesUrl(); 
-    }else{console.log(error)}
+    }
     
-  }, [prueba])
+  }, [inputValue])
 
 
   console.log(prueba + 'soy prueba');
-  
+
   useEffect(() => {
     const timer= setTimeout(() => {
       setCopied(false)
