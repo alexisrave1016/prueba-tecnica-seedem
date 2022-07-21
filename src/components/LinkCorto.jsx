@@ -27,6 +27,7 @@ export default function LinkCorto({inputValue}) {
     if(inputValue.length){
       peticionesUrl(); 
     }
+    return
   }, [inputValue])
 
 
