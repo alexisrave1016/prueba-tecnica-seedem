@@ -8,13 +8,14 @@ export default function LinkCorto({inputValue}) {
   const [copied, setCopied] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false)
-  var prueba= inputValue
-
+  const [guardado, setGuardado] = useState([])
+  const prueba=guardado
   const peticionesUrl = async()=>{
     try{
       setLoading(true);
       const res= await axios(`https://api.shrtco.de/v2/shorten?url=${inputValue}`);
       setLinkRecontado(res.data.result.full_short_link);
+      setGuardado(inputValue,linkRecontado)
     }catch(err){
         setError(err);
     }finally{
@@ -31,8 +32,6 @@ export default function LinkCorto({inputValue}) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[inputValue])
 
-
-  console.log(prueba + 'soy prueba');
 
   useEffect(() => {
     const timer= setTimeout(() => {
@@ -61,6 +60,8 @@ export default function LinkCorto({inputValue}) {
           onCopy={()=>setCopied(true)}>
           <button className={`boton-copiar ${copied? 'copied':''}`}>Copy!</button>
         </CopyToClipboard>
+        <p className='link-cortar'>{prueba.inputValue}</p>
+        <span className='link-resultado'>{prueba.linkRecontado}</span>
       </div>
     )
   }

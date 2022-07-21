@@ -6,6 +6,7 @@ export default function Buscador({setInputValue}) {
   const handlelick=()=>{
     setInputValue(value);
     setValue('');
+    
   }
 
   
