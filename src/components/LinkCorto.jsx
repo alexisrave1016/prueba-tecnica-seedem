@@ -25,10 +25,11 @@ export default function LinkCorto({inputValue}) {
 
   useEffect(() => {
     if(inputValue.length>0){
-      peticionesUrl(); 
+      peticionesUrl()
     }
     
-  }, [inputValue])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[inputValue])
 
 
   console.log(prueba + 'soy prueba');
